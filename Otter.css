@@ -1,0 +1,46 @@
+body {
+  background-color: pink;
+}
+.container {
+  display: flex;
+  border: 10px solid rgb(172, 164, 164);
+  border-radius: 20px;
+  width: 300px;
+  margin: auto;
+  justify-items: center;
+  padding: 50px;
+  color: #fff;
+}
+
+.heading {
+  background-color: rgb(223, 133, 148);
+  padding: 1px;
+  margin-bottom: -60px;
+  border-radius: 5px;
+  top: -50px;
+  position: relative;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 300px;
+  height: 100%;
+  text-align: center;
+  background-color: #e6dcdc;
+  color: black;
+  border-radius: 5px;
+}
+.nav {
+  margin: 20px;
+  text-align: center;
+}
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 800;
+  background-color: rgb(184, 133, 142);
+}

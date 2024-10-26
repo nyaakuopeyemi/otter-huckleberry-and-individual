@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+span{
+  color: green;
+  font-weight: 800;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.whiteback {
+  width: 100%;
+  height: 40vh;
+  padding: 30px;
+  word-spacing: 5px;
+  box-shadow: 0.1px 20px 1px rgb(143, 142, 142);
+}
+
+.greyback {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(172, 169, 169);
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.biggie {
+  background-color: white;
+  width: 580px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: -200px;
+}
+
+.small {
+  background-color: whitesmoke;
+  width: 550px;
+  height: 250px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 0.1px 10px 1px rgb(136, 135, 134);
+}
+.small p {
+  margin-top: 30px;
+}
+
+.tiny {
+  background-color: orange;
+  border: 2px solid orange;
+  width: 300px;
+  height: 50px;
+  position: relative;
+  bottom: -10px;
+  left: -20px;
+  box-shadow: 0.1px 5px 1px rgb(134, 90, 8);
+}
+.tiny p {
+  font-weight: 900;
+  font-size: large;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .whiteback {
+    background-color: white;
+    box-shadow: 0.1px 10px 1px rgb(143, 142, 142);
+    padding: 5px;
+    margin-top: 60px;
+    height: 240px;
+    width: 100vh;
+  }
+  .biggie {
+    padding: 0;
+    margin: 0;
+  }
+
+  .greyback {
+    background-color: rgb(77, 75, 75);
+    padding: 0;
+    box-shadow: 0.1px 10px 1px rgb(87, 87, 85);
+    height: 350px;
+  }
+
+  .small {
+    background-color: whitesmoke;
+    padding: 0;
+    margin-top: 45px;
+    width: 100%;
+  }
+  .small p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+  }
+
+  .tiny {
+    background-color: orange;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    bottom: 1px;
+    left: -10px;
+    box-shadow: 0.1px 5px 1px rgb(134, 90, 8);
+  }
+
+  .tiny p {
+    font-weight: 900;
+    font-size: large;
+    margin-top: 5px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width:390px){
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .whiteback {
+    background-color: white;
+    box-shadow: 0.1px 10px 1px rgb(143, 142, 142);
+    padding: 0;
+    margin-top: 30px;
+    height: 300px;
+    width: 200px;
+  }
+  
+  .biggie {
+    padding: 0;
+    margin: 0;
+    width: 200px;
+  }
+
+  .greyback {
+    background-color: rgb(77, 75, 75);
+    padding: 0;
+    box-shadow: 0.1px 10px 1px rgb(87, 87, 85);
+    height: 500px;
+    width: 200px;
+  }
+
+  .small {
+    background-color: whitesmoke;
+    padding: 0;
+    margin-top: 45px;
+    width: 100%;
+    height: 400px;
+  }
+  .small p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+  }
+
+  .tiny {
+    background-color: orange;
+    width: 190px;
+    height: 50px;
+    position: relative;
+    bottom: -2px;
+    left: -10px;
+    box-shadow: 0.1px 5px 1px rgb(134, 90, 8);
+  }
+
+  .tiny p {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding-left: 20px;
+  }
+}
