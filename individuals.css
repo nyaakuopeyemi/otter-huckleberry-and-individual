@@ -150,7 +150,7 @@ button[type="submit"]:hover {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 390px) {
+@media screen and (width: 390px), screen and (max-height: 600px) {
   .nav{
     display: flex;
     flex-direction: row;
