@@ -119,14 +119,16 @@ span {
     background-color: rgb(77, 75, 75);
     padding: 0;
     box-shadow: 0.1px 10px 1px rgb(143, 142, 142);
-    height: 350px;
+    height: 400px;
   }
 
   .small {
     background-color: whitesmoke;
     padding: 0;
     margin-top: 45px;
+    margin-bottom: 45px;
     width: 95%;
+    height: 300px;
   }
   .small p {
     margin-top: 20px;
