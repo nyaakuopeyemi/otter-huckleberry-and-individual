@@ -104,6 +104,15 @@ span {
     width: 100%;
   }
 
+  .btn1 {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 800;
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+}
+
   .whiteback {
     background-color: white;
     box-shadow: 0.1px 10px 1px rgb(143, 142, 142);
