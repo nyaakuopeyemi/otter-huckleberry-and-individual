@@ -91,7 +91,7 @@ span {
 @media only screen and (width: 600px) {
   body {
     margin: auto;
-    padding: auto;
+    padding: 5px;
     width: 600px;
   }
 
@@ -101,6 +101,8 @@ span {
   }
 
   .whiteback {
+    display: flex;
+    flex: 1;
     background-color: white;
     box-shadow: 0.1px 10px 1px rgb(143, 142, 142);
     padding: 5px;
@@ -116,6 +118,8 @@ span {
   }
 
   .greyback {
+    display: flex;
+    flex: 1;
     background-color: rgb(77, 75, 75);
     padding: 0;
     box-shadow: 0.1px 10px 1px rgb(87, 87, 85);
