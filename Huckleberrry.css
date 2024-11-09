@@ -95,7 +95,6 @@ span {
   .main {
     display: flex;
     flex-direction: column;
-    border: 2px solid green;
     width: 100%;
   }
 
@@ -118,7 +117,7 @@ span {
 
   .greyback {
     background-color: rgb(77, 75, 75);
-    padding: 0;
+    padding: 5px;
     box-shadow: 0.1px 10px 1px rgb(143, 142, 142);
     height: 350px;
   }
