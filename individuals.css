@@ -19,7 +19,7 @@ body {
   margin: 5px;
   border-radius: 5px;
   color: aliceblue;
-  border: 2px solid rgb(40, 158, 30);
+  border: 2px solid rgb(55, 92, 55);
   font-weight: 800;
   background-color: rgb(97, 206, 151);
 }
@@ -118,7 +118,7 @@ input[type="date"] {
 
 input[type="text"],
 input[type="date"]:hover {
-  border-color: rgb(61, 145, 167);
+  border-color: rgb(219, 222, 223);
 }
 
 input[type="password"] {
@@ -127,18 +127,18 @@ input[type="password"] {
   border: 1px solid #d6d8db;
   margin-right: 5px;
   border-radius: 4px;
-  background-color: rgb(248, 241, 241);
+  background-color:white;
 }
 
 #gender {
   min-width: 200px;
   margin-right: 10px;
   height: 40px;
-  background-color: rgb(248, 241, 241);
+  background-color:white;
 }
 select {
   min-width: 390px;
-  border: 1px solid #1966da;
+  border: 1px solid #e3e6eb;
   border-radius: 4px;
   height: 40px;
 }
@@ -146,7 +146,7 @@ select {
 #Act-lev {
   min-width: 190px;
   height: 40px;
-  background-color: rgb(248, 241, 241);
+  background-color: white;
 }
 
 button[type="submit"] {
@@ -159,7 +159,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: rgb(61, 145, 167);
+  background-color: rgb(61, 167, 141);
   cursor: pointer;
 }
 
@@ -237,11 +237,7 @@ button[type="submit"]:hover {
   input {
     border: 1px solid white;
   }
-  input[type="password"] {
-    min-width: 150px;
-    border-radius: 4px;
-    background-color: rgb(248, 241, 241);
-  }
+  
   input[type="date"] {
     min-width: 180px;
     border: 1px solid #d6d8db;
@@ -249,13 +245,33 @@ button[type="submit"]:hover {
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
   }
+  
+  input[type="password"] {
+    padding: 10px;
+    min-width: 150px;
+    border: 1px solid #d6d8db;
+    margin-right: 5px;
+    border-radius: 4px;
+    background-color:white;
+  }
+  
+  #gender {
+    min-width: 200px;
+    margin-right: 10px;
+    height: 40px;
+    background-color:white;
+  }
   select {
-    width: 100px;
+    min-width: 390px;
+    border: 1px solid #e3e6eb;
+    border-radius: 4px;
     height: 40px;
   }
+  
   #Act-lev {
-    min-width: 190px;
+    min-width: 150px;
     height: 40px;
-    background-color: rgb(248, 241, 241);
+    background-color: white;
   }
+
 }
