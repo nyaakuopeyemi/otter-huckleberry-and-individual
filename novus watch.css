@@ -27,8 +27,9 @@ button {
 }
 button:hover {
   transform: scale(1.05);
-  background-color: rgb(129, 73, 32);
+  background-color: rgba(180, 143, 118, 0.918);
   color: azure;
+  cursor: pointer;
 }
 
 .card {

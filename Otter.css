@@ -44,7 +44,7 @@ body {
 }
 
 button {
-  width: 100px;
+  width: 150px;
   height: 40px;
   border-radius: 5px;
   font-weight: 800;
@@ -53,6 +53,12 @@ button {
   background-color: #e6dcdc;
   border: 2px solid rgb(172, 164, 164);
   margin-bottom: 5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #cfb2b2;
+  border: 2px solid white;
+  color: white;
 }
 
 @media screen and (width: 600px) {
