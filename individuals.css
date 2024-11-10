@@ -48,7 +48,7 @@ body {
 
 .left {
   background-color: rgb(250, 250, 250);
-  max-width: 700px;
+  max-width: 400px;
   text-align: start;
 }
 
@@ -67,7 +67,8 @@ body {
   background-color: rgb(241, 245, 245);
   border-radius: 3px;
   margin: 20px;
-  box-shadow: 1px 1px 30px rgb(197, 202, 197);
+  padding: 5px;
+  box-shadow: 1px 1px 0px rgb(238, 236, 236);
 }
 
 form {
@@ -135,7 +136,13 @@ input[type="password"] {
 }
 select {
   min-width: 390px;
-  border: 1px solid #d6d8db;
+  border: 1px solid #1966da;
+  border-radius: 4px;
+  height: 40px;
+}
+
+#Act-lev {
+  min-width: 190px;
   height: 40px;
   background-color: rgb(248, 241, 241);
 }
@@ -155,31 +162,34 @@ button[type="submit"]:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .nav{
+  .navbar2{
     display: flex;
     flex-direction: row;
     margin: 4px;
+    box-shadow: 1px 1px 1px rgb(232, 235, 232);
+    border-radius: 8px;
   }
   
   .btn1 {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 5px;
-    width: 75px;
-    height: 20px;
+    width: 90px;
+    height: 40px;
     font-weight: 800;
     font-size: 9px;
     background-color: rgb(87, 213, 218);
   }
   .content {
     display: flex;
-    max-width: 300px;
+    max-width: 400px;
+    padding: 20px;
     flex-direction: column;
     box-shadow: none;
     align-items: center;
     text-align: center;
     margin: auto;
-    border: 0.5px solid rgb(131, 131, 131);
+    box-shadow: 1px 1px 1px rgb(238, 241, 238);
     border-radius: 8px;
   }
   .main {
@@ -197,18 +207,18 @@ button[type="submit"]:hover {
   }
 
   .left {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(255, 255, 255);
     max-width: 300px;
     text-align: start;
   }
   .right {
-    background-color: rgb(241, 245, 245);
+    background-color: rgb(255, 255, 255);
     max-width: 300px;
   }
   form {
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    padding: 15px;
     margin: 10px;
     max-width: 300px;
   }
@@ -238,7 +248,6 @@ button[type="submit"]:hover {
   select {
     width: 100px;
     height: 40px;
-    background-color: rgb(192, 36, 36);
   }
   #Act-lev {
     min-width: 190px;
