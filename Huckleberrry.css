@@ -162,9 +162,10 @@ span {
   }
 
   .tiny p {
-    font-weight: 900;
+    font-weight: 700;
     font-size: medium;
     margin-top: 5px;
+    margin-bottom: 8px;
     padding-left: 20px;
   }
 }
