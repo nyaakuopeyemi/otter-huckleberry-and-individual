@@ -18,8 +18,9 @@ body {
   height: 35px;
   margin: 5px;
   border-radius: 5px;
+  border: 2px solid white;
   color: aliceblue;
-  border: 2px solid rgb(55, 92, 55);
+  box-shadow: 1px 1px 1px rgb(69, 70, 69);
   font-weight: 800;
   background-color: rgb(97, 206, 151);
 }
