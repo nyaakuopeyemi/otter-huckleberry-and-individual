@@ -181,8 +181,9 @@ button[type="submit"]:hover {
     height: 30px;
     font-weight: 800;
     font-size: 9px;
+    border: 2px solid white;
     background-color: rgb(87, 213, 218);
-    border: 2px solid rgb(40, 158, 30);
+    box-shadow: 1px 1px 1px rgb(69, 70, 69);
     border-radius: 8px;
   }
   .content {
